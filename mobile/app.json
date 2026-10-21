@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "PrepHired",
+    "slug": "mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/PrepHiredLogo.jpg",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "permissions": ["android.permission.RECORD_AUDIO"],
+      "package": "com.anonymous.mobile"
+    },
+    "web": {
+      "favicon": "./assets/PrepHiredLogo.jpg"
+    },
+    "plugins": [
+      "expo-sharing",
+      "@react-native-community/datetimepicker",
+      "expo-speech-recognition"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "c1281bd9-0ec5-4d43-9605-fe9b3b272ce5"
+      }
+    }
+  }
+}
